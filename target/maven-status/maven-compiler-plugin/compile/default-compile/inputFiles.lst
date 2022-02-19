@@ -1,2 +1,3 @@
 /Users/doo/project/doo-plugin/src/main/java/org/elasticsearch/plugin/doo/DooPlugin.java
+/Users/doo/project/doo-plugin/src/main/java/org/elasticsearch/plugin/script/DooScriptPlugin.java
 /Users/doo/project/doo-plugin/src/main/java/org/elasticsearch/plugin/doo/DooNocodeAction.java
