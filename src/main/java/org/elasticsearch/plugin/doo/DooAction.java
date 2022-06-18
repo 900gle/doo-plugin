@@ -18,24 +18,24 @@ import java.util.List;
 import static org.elasticsearch.rest.RestRequest.Method.GET;
 import static org.elasticsearch.rest.RestStatus.OK;
 
-public class DooNocodeAction extends BaseRestHandler {
+public class DooAction extends BaseRestHandler {
 
-    public DooNocodeAction(final Settings settings,
-                               final RestController controller) {
+    public DooAction(final Settings settings,
+                     final RestController controller) {
         // nothing
     }
 
 
     @Override
     public String getName() {
-        return "nocode_doo_action.";
+        return "doo_action.";
     }
 
     @Override
     public List<Route> routes() {
         return Collections.unmodifiableList(Arrays.asList(
-                new Route(GET, "/{index}/_nocode"),
-                new Route(GET, "/_nocode")));
+                new Route(GET, "/{index}/_doo"),
+                new Route(GET, "/_doo")));
     }
 
 

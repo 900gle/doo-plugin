@@ -1,3 +1,4 @@
+org/elasticsearch/plugin/script/DooScriptPlugin$MyExpertScriptEngine$PureDfFactory.class
 org/elasticsearch/plugin/doo/DooNocodeAction.class
 org/elasticsearch/plugin/doo/DooPlugin.class
 org/elasticsearch/plugin/script/DooScriptPlugin$MyExpertScriptEngine$PureDfLeafFactory.class

@@ -25,6 +25,6 @@ public class DooPlugin extends Plugin implements ActionPlugin {
                                              final IndexNameExpressionResolver indexNameExpressionResolver,
                                              final Supplier<DiscoveryNodes> nodesInCluster) {
         return Arrays.asList(
-                new DooNocodeAction(settings, restController));
+                new DooAction(settings, restController));
     }
 }
